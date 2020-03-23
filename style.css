@@ -4,13 +4,11 @@
 }
 
 #navigation{
-    background: red;
     height: 50px;
     display: flex;
     align-items: center;
 }
 #video{
-    background: blueviolet;
     width: 100%;
     margin-right:40px;
     height: 100vh;
@@ -23,9 +21,8 @@
 
 }
 #sidebar{
-    width: 300px;
+    width: 600px;
     height: 100vh;
-    background: chartreuse;
 }
 .navbar{
     display: flex;
@@ -44,4 +41,43 @@
 .search input{
 
     width: 100%;
+}
+
+.sidebar-vid{
+    display: flex;
+}
+
+.thumbnail-img{
+    width: 50%;
+    position:relative;
+}
+
+.thumb-title{
+    font-size:18px
+}
+.thumb-info{
+    font-size: 12px;
+}
+.thumb-description{
+    width: 50%;
+    margin-left: 15px;
+    
+}
+.profile{
+    display: flex;
+}
+.profile-name{
+    font-weight: bold;
+    display: block;
+}
+.subscribe{
+    display:flex;
+}
+.subscribe-counter{
+    border:1px solid grey;
+}
+.subscribe-button{
+    background: red;
+    border:0;
+    color:white;
 }
