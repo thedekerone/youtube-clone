@@ -138,3 +138,16 @@ body {
     width: 90%;
     border:0;
 }
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 0;
+}
+.like{
+    display: flex;
+    align-items: center;
+    margin: 0 8px;
+}
+.like img{
+    margin-right: 8px;
+}
