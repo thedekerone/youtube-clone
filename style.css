@@ -1,6 +1,22 @@
 *{
     margin:0;
     padding:0;
+    background-color: #edebeb;
+}
+
+body {
+    background-color: #eeeeee;
+}
+.horiz-line {
+    margin: 0 15px 0 15px;
+    height: 1px;
+    border: 0px;
+    background: rgba(0, 0,0, 0.2);
+}
+
+.video-description {
+    margin-top: 15px;
+    font-size: 13px;
 }
 
 #navigation{
@@ -10,7 +26,7 @@
 }
 #video{
     width: 100%;
-    margin-right:40px;
+    margin-right:20px;
     height: 100vh;
 }
 .content{
@@ -23,11 +39,13 @@
 #sidebar{
     width: 600px;
     height: 100vh;
+    background-color: white;
 }
 .navbar{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    background-color: white;
 }
 #left-side, #right-side{
     display: flex;
@@ -45,6 +63,7 @@
 
 .sidebar-vid{
     display: flex;
+    margin: 15px;
 }
 
 .thumbnail-img{
