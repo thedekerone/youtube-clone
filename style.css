@@ -27,7 +27,6 @@ body {
 #video{
     width: 100%;
     margin-right:20px;
-    height: 100vh;
 }
 .content{
     margin-top: 70px; 
@@ -38,7 +37,6 @@ body {
 }
 #sidebar{
     width: 600px;
-    height: 100vh;
     background-color: white;
 }
 .navbar{
@@ -84,6 +82,7 @@ body {
 }
 .profile{
     display: flex;
+    margin-bottom: 10px;
 }
 .profile-name{
     font-weight: bold;
@@ -112,4 +111,30 @@ body {
 }
 .profile-name{
     margin-bottom: 20px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid #949494;
+}
+.info-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.info-button{
+    text-align: center;
+}
+.views-title{
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(102, 101, 101);
+}
+.Hr{
+    background: rgb(22, 122, 198);
+    height: 3px;
+    margin-bottom:-2px;
+    width: 90%;
+    border:0;
 }
