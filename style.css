@@ -264,6 +264,18 @@ button:hover{
 }
 
 
+.share-button {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.social-img {
+    height: 20px;
+    width: 25px;
+    margin-right: 5px;
+}
+
 .footer-container {
     background-color: white;
 }
@@ -306,3 +318,4 @@ button:hover{
     font-size: 1.1rem;
 
 }
+
