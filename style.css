@@ -4,6 +4,10 @@
     box-sizing: border-box;
     background-color: #edebeb;
 }
+html{
+    font-size: 16px;
+}
+
 
 
 .center-content {
@@ -25,21 +29,22 @@ button:hover{
     border-radius: 3px;
     color: white;
     height: 100%;
-    padding: 0 20px;
+    padding: 0 1.2rem;
 }
 
 body {
     background-color: #eeeeee;
 }
 .horiz-line {
-    margin: 0 15px 0 15px;
+
+    margin: 0 0.95rem 0 0.95rem;
     height: 1px;
     border: 0px;
     background: rgba(0, 0,0, 0.2);
 }
 
 .comment-section-container {
-    padding: 70px;
+    padding: 4.5rem;
 }
 
 .comment {
@@ -47,47 +52,47 @@ body {
 }
 
 .video-description-more {
-    padding: 10px;
-    font-size: 15px;
+    padding: 0.75rem;
+    font-size: 0.95rem;
 }
 
 .video-description {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-size: 13px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
 }
 
 #navigation{
-    height: 70px;
+    height: 4rem;
     display: flex;
     align-items: center;
 }
 #video{
     width: 100%;
-    margin-right:20px;
+    margin-right:1.45rem;
 }
 .content{
-    margin-top: 70px; 
+    margin-top: 4.5rem; 
     display: flex;
 
     justify-content: space-between;
 
 }
 #sidebar{
-    width: 600px;
+    width: 35rem;
     background-color: white;
 }
 .navbar{
     display: flex;
     width: 100%;
-    padding: 0 40px;
+    padding: 0 2.5rem;
     justify-content: space-between;
     background-color: white;
 }
 #left-side, #right-side{
     display: flex;
     align-items: center;
-    width: 300px;
+    width: 18rem;
 }
 .search{
     width: 100%;
@@ -96,12 +101,12 @@ body {
 }
 .search input{
     height: 100%;
-    font-size: 18px;
+    font-size: 1.15rem;
     width: 100%;
     border: 1px solid rgb(177, 177, 177);
 }
 .search-button{
-    padding: 0 25px;
+    padding: 0 1.5rem;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -111,7 +116,7 @@ body {
 
 .sidebar-vid{
     display: flex;
-    margin: 15px;
+    margin: 0.9rem;
 }
 
 .thumbnail-img{
@@ -123,7 +128,7 @@ body {
     position: absolute;
     background-color: rgba(0, 0,0, 0.5);
     right: 3px;
-    font-size: 14px;
+    font-size: 0.9rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,18 +139,18 @@ body {
 }
 
 .thumb-title{
-    font-size:18px
+    font-size:1.15rem
 }
 .thumb-info{
-    font-size: 12px;
+    font-size: 0.85rem;
 }
 .thumb-description{
     width: 50%;
-    margin-left: 15px;
+    margin-left: 0.925rem;
 }
 .profile{
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 0.6rem;
 }
 .profile-name{
     font-weight: bold;
@@ -163,17 +168,17 @@ body {
     color:white;
 }
 .video-info{
-    margin-left:20px;
+    margin-left:1.25rem;
 }
 .video-title{
-    margin-top: 40px ;
-    margin-bottom: 20px;
+    margin-top: 2.5rem ;
+    margin-bottom:1.25rem;
 }
 .profile-info{
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 .profile-name{
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 .wrapper {
     display: flex;
@@ -190,7 +195,7 @@ body {
     text-align: center;
 }
 .views-title{
-    font-size: 30px;
+    font-size: 1.7rem;
     font-weight: 300;
     color: rgb(102, 101, 101);
 }
@@ -215,4 +220,3 @@ body {
     margin-right: 8px;
 }
 
-.
