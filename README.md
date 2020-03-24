@@ -2,7 +2,7 @@
 
 > This is a youtube clone project from microverse.
 
-![screenshot](./screenshot.png)
+![screenshot](./img/screenshot.png)
 
 This is a youtube clone made from scratch.
 
