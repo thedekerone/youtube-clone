@@ -256,3 +256,28 @@ button:hover{
     margin-right: 8px;
 }
 
+
+.footer-container {
+    display: flex;
+    background-color: white;
+}
+
+.footer-upper {
+    display: flex;
+}
+
+.footer-upper-elem {
+    margin-left: 20px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.arrow-icon {
+    width: 10px;
+}
+
