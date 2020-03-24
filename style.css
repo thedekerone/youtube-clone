@@ -93,6 +93,7 @@ button:hover{
 .video-description-more {
     padding: 0.75rem;
     font-size: 0.95rem;
+    font-weight: bold;
 }
 
 .video-description {
@@ -201,12 +202,26 @@ button:hover{
     display:flex;
 }
 .subscribe-counter{
-    border:1px solid grey;
+    border:1px solid rgb(167, 167, 167);
+    display: flex;
+    align-items: center;
+    border-radius: 0px 3px 3px 0px;
+    padding:  .4rem;
 }
 .subscribe-button{
-    background: red;
     border:0;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: .5rem;
+    font-size: 1.1rem;
+    border-radius: 3px 0 0 3px;
+    justify-content: space-between;
     color:white;
+}
+.subscribe-button img{
+    margin-right: .5rem;
 }
 .video-info{
     padding-left:1.25rem;
@@ -230,7 +245,7 @@ button:hover{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    border-bottom: 1px solid #949494;
+    border-bottom: 1px solid rgba(0, 0,0, 0.2);
 }
 .info-buttons{
     display: flex;
