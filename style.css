@@ -68,6 +68,20 @@ body {
     width: 50%;
     position:relative;
 }
+.thumbnail-img::after{
+    content: "22:50";
+    position: absolute;
+    background-color: rgba(0, 0,0, 0.5);
+    right: 3px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    bottom: 5px;
+    width: 20%;
+    height: 20%;
+}
 
 .thumb-title{
     font-size:18px
@@ -151,3 +165,5 @@ body {
 .like img{
     margin-right: 8px;
 }
+
+.
