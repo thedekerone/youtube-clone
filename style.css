@@ -13,8 +13,14 @@ html{
         font-size: 14px;
     }
   }
+.sidebar-options{
+    display: flex;
+    justify-content: space-between;
+}
 .autoplay{
     display: flex;
+    width: 50%;
+    justify-content: space-between;
 }
 .switch{
     background-color: rgb(22, 122, 198);
