@@ -13,8 +13,34 @@ html{
         font-size: 14px;
     }
   }
+.autoplay{
+    display: flex;
+}
+.switch{
+    background-color: rgb(22, 122, 198);
+    border-radius: 100px;
+    width: 40px;
+    height: 20px;
+    position: relative;
+}
+.switch::after{
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    background: white;
+    right: 0;
+    border: 1px solid grey;
+    border-radius: 100%;
+    top: 0;
+}
 
-
+.switch:focus{
+    background-color: grey;
+}
+.switch:focus::after{
+    right: calc(100% - 20px);
+}
 .center-content {
     text-align: center;
     display: block;
@@ -37,9 +63,6 @@ button:hover{
     padding: 0 1.2rem;
 }
 
-body {
-    background-color: #eeeeee;
-}
 .horiz-line {
 
     margin: 0 0.95rem 0 0.95rem;
@@ -70,6 +93,7 @@ body {
 #navigation{
     height: 4rem;
     display: flex;
+    background-color: white;
     align-items: center;
 }
 #video{
@@ -92,7 +116,6 @@ body {
     width: 100%;
     padding: 0 2.5rem;
     justify-content: space-between;
-    background-color: white;
 }
 #left-side, #right-side{
     display: flex;
