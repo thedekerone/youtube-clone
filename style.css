@@ -6,6 +6,13 @@
 }
 
 
+.center-content {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: grey;
+}
+
 button,input{
     background: white;
     border: 0;
@@ -31,8 +38,22 @@ body {
     background: rgba(0, 0,0, 0.2);
 }
 
+.comment-section-container {
+    padding: 70px;
+}
+
+.comment {
+    text-align: center;
+}
+
+.video-description-more {
+    padding: 10px;
+    font-size: 15px;
+}
+
 .video-description {
-    margin-top: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     font-size: 13px;
 }
 
