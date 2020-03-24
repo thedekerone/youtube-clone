@@ -261,12 +261,12 @@ button:hover{
 
 
 .footer-container {
-    display: flex;
     background-color: white;
 }
 
 .footer-upper {
     display: flex;
+    margin: 1.5rem 0.95rem;
 }
 
 .footer-upper-elem {
@@ -283,4 +283,22 @@ button:hover{
     margin-left: .5rem;
     width: 10px;
 }
+.footer-lower{
+    margin-top: 1.7rem;
+    margin: 0 0.95rem;
+}
 
+.footer-list{
+    display: flex;
+    list-style: none;
+    padding: .5rem 0;
+}
+.footer-list li{
+    margin-right: 2.5rem;
+    font-size: 1rem;
+}
+.main li{
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
