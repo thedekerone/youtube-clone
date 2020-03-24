@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap');
 *{
     margin:0;
     padding:0;
@@ -8,6 +9,7 @@ html{
 }
 body{
     background-color: #eee;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 @media screen and (max-width: 1400px) {
@@ -50,12 +52,6 @@ body{
 .switch:focus::after{
     right: calc(100% - 20px);
 }
-.center-content {
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    color: grey;
-}
 
 button,input{
     background: white;
@@ -68,16 +64,17 @@ button:hover{
     background-color: rgb(22, 122, 198);
     border-radius: 3px;
     color: white;
+    font-weight: bold;
     height: 100%;
     padding: 0 1.2rem;
 }
 
-.horiz-line {
+.center-content{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: grey;
 
-    margin: 0 0.95rem 0 0.95rem;
-    height: 1px;
-    border: 0px;
-    background: rgba(0, 0,0, 0.2);
 }
 
 .comment-section-container {
@@ -121,7 +118,6 @@ button:hover{
 }
 #sidebar{
     width: 35rem;
-    background-color: white;
 }
 .navbar{
     display: flex;
@@ -158,7 +154,13 @@ button:hover{
 
 .sidebar-vid{
     display: flex;
-    margin: 0.9rem;
+    padding: 0.9rem;
+
+
+}
+
+#sidebar div, #sidebar p {
+    background-color: white;
 }
 
 .thumbnail-img{
@@ -224,15 +226,12 @@ button:hover{
     margin-right: .5rem;
 }
 .video-info{
-    padding-left:1.25rem;
-    padding-right: 1.25rem;
+    padding: .9rem 1.25rem 0;
     background-color: white;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+
     margin-bottom: 1.25rem
 }
 .video-title{
-    margin-top: 2.5rem ;
     margin-bottom:1.25rem;
 }
 .profile-info{
@@ -259,14 +258,31 @@ button:hover{
     font-size: 1.7rem;
     font-weight: 300;
     color: rgb(102, 101, 101);
+    position: relative;
 }
-.Hr{
-    background: rgb(22, 122, 198);
+.views-title::before{
+    position: absolute;
+    content:"";
+    background-color: rgb(207, 206, 206);
     height: 3px;
-    margin-bottom:-2px;
-    width: 90%;
-    border:0;
+    bottom: 0;
+    left: -5rem;
+    width: calc(100% + 5rem);
+    border-radius: 10px;
+
+}.views-title::after{
+    position: absolute;
+    content:"";
+    background-color:rgb(22, 122, 198);
+    height: 3px;
+    bottom: 0;
+    border-radius: 10px;
+
+    left: -5rem;
+    width: calc(92% + 5rem);
+
 }
+
 .container{
     display: flex;
     justify-content: space-between;
@@ -295,6 +311,8 @@ button:hover{
 }
 
 .footer-container {
+    margin-top: 10rem;
+    padding-left: 2rem;
     background-color: white;
 }
 
@@ -308,6 +326,7 @@ button:hover{
     border: 1px solid grey;
     border-radius: 4px;
     display: flex;
+    background-color: rgb(228, 228, 228);
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
@@ -337,3 +356,9 @@ button:hover{
 
 }
 
+.horiz-line {
+    margin: 0 0.95rem 0 0.95rem;
+    height: 1px;
+    border: 0px;
+    background: rgba(0, 0,0, 0.2);
+}
