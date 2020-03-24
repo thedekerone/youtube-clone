@@ -8,6 +8,11 @@ html{
     font-size: 16px;
 }
 
+@media screen and (max-width: 1400px) {
+    html{
+        font-size: 14px;
+    }
+  }
 
 
 .center-content {
@@ -91,6 +96,7 @@ body {
 }
 #left-side, #right-side{
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     width: 18rem;
 }
@@ -103,6 +109,7 @@ body {
     height: 100%;
     font-size: 1.15rem;
     width: 100%;
+    padding: 5px;
     border: 1px solid rgb(177, 177, 177);
 }
 .search-button{
