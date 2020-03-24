@@ -77,6 +77,10 @@ button:hover{
 
 }
 
+iframe {
+    border: 0;
+}
+
 .comment-section-container {
     padding: 4.5rem;
     background-color: white;
