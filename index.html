@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="flex-center">
+        <nav class="flex-between">
+            <div class="left-side flex-evenly">
+                <button>
+                    <img src="img/ham.png" width="18" alt="ham-icon">
+                </button>
+                <button class="logo">
+                    <img width="100" src="img/youtube-logo.png"  alt="logo-image">
+                </button>
+            </div>
+            <div class="search">
+                <label>
+                    <input placeholder="Search" type="text">
+                </label>
+                <button class="search-button flex-center">
+                    <img src="img/search.webp" width="18" alt="search-icon">
+                </button>
+            </div>
+            <div class="right-side flex-evenly">
+                <button>
+
+                    <img src="img/upload.png" width="20" alt="upload-icon">
+                </button>
+                <button class="sign">
+                    Sign in
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="content flex-between">
+        <div class="video">
+            <iframe  height="700"  src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="video-info">
+
+                <h2 class="video-title" >Contributing to Open Source Part I: The Easy Way</h2>
+                <div class="wrapper flex-between">
+                    <div class="profile flex-center">
+
+                            <img src="img/profile.jpg" width="80" height="80" alt="profile-img">
+                        <div class="profile-info">
+                            <p class="profile-name">The Odin Project</p>
+                            <div class="flex-center">
+                                 <button class="subscribe-button flex-between"><img width="25" src="img/play-icon.png" alt="subscribe image">Subscribe</button>
+                                 <p class="subscribe-counter flex-center">799</p>
+                            </div>
+                         </div>
+                     </div>
+                        
+                    <div class="views">
+                        <h4 class="views-title">50,016 views</h4>
+                    </div>  
+                </div>
+                <div class="wrapper flex-between">
+                    <div class="container flex-between">
+                        <div class="share-button flex-center">
+                            <img src="img/add-icon.png" alt="add-button" class="social-img">
+                            Add to
+                        </div>
+                        <div class="share-button flex-center">
+                            <img src="img/share-icon.webp" alt="share-button" class="social-img">
+                            Share
+                        </div>
+                        <div class="share-button flex-center">
+                            <img src="img/more-icon.webp" alt="more-button" class="social-img">
+                            More
+                        </div>
+                    </div>
+                    <div class="container flex-between">
+                        <div class="like flex-center"><img src="img/like.png" width="25" alt="like icon"> 359</div>
+                        <div class="like flex-center"> <img src="img/dislike.png" width="25" alt="dislike icon"> 14</div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="video-info">
+                <div class="video-description">
+                    <h3>Published on Feb 27, 2014<br></h3>
+                    <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
+                    
+                </div>
+                <hr class="horiz-line">
+                <a href="#" class="center-content video-description-more"> SHOW MORE </a>
+                <hr class="horiz-line">
+
+            </div>
+            <div class="comment-section-container">
+                <div class="comment">
+                    <img src="img/loading-gif.gif" alt="loading-gif" width="20" height="20">
+                    Loading...
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar-options flex-between">
+                <b>Up next</b>
+                <div  class="autoplay flex-between">
+                    <p>Autoplay</p>
+                    <img  src="img/info-icon.png" width="20" alt="info-icon">
+                    <button class="switch">  
+                    </button>
+                </div>
+                
+            </div>
+            <div class="sidebar-vid">
+                <div class="thumbnail-img">
+                    <img src="img/thumb1.jpeg"  alt="video thumbnail">
+                </div>
+                
+                <div class="thumb-description">
+                    <h3 class="thumb-title">Contributing to open source</h3>
+                    <p class="thumb-info" >The Odin Project</p>
+                    <p class="thumb-info" >50,000 views</p>
+                </div>
+            
+            </div>
+            <hr class="horiz-line">
+           <div class="sidebar-vid">
+                <div class="thumbnail-img">
+                    <img src="img/thumb3.jpeg"  alt="video thumbnail">
+                </div>
+                
+                <div class="thumb-description">
+                    <h3 class="thumb-title">Contributing to open source</h3>
+                    <p class="thumb-info" >The Odin Project</p>
+                    <p class="thumb-info" >50,000 views</p>
+                </div>
+            </div>
+            <div class="sidebar-vid">
+                <div class="thumbnail-img">
+                    <img src="img/thumb4.jpeg"  alt="video thumbnail">
+                </div>
+                
+                <div class="thumb-description">
+                    <h3 class="thumb-title">Contributing to open source</h3>
+                    <p class="thumb-info" >The Odin Project</p>
+                    <p class="thumb-info" >50,000 views</p>
+                </div>
+            </div>
+            <div class="sidebar-vid">
+                <div class="thumbnail-img">
+                    <img src="img/thumb6.jpg" alt="video thumbnail">
+                </div>
+                
+                <div class="thumb-description">
+                    <h3 class="thumb-title">Contributing to open source</h3>
+                    <p class="thumb-info" >The Odin Project</p>
+                    <p class="thumb-info" >50,000 views</p>
+                </div>
+            </div><div class="sidebar-vid">
+                <div class="thumbnail-img">
+                    <img src="img/thumb7.jpg"  alt="video thumbnail">
+                </div>
+                
+                <div class="thumb-description">
+                    <h3 class="thumb-title">Contributing to open source</h3>
+                    <p class="thumb-info" >The Odin Project</p>
+                    <p class="thumb-info" >50,000 views</p>
+                </div>
+            </div><div class="sidebar-vid">
+                <div class="thumbnail-img">
+                    <img src="img/thumb9.png"  alt="video thumbnail">
+                </div>
+                
+                <div class="thumb-description">
+                    <h3 class="thumb-title">Contributing to open source</h3>
+                    <p class="thumb-info" >The Odin Project</p>
+                    <p class="thumb-info" >50,000 views</p>
+                </div>
+            </div>
+            <div class="sidebar-vid">
+                <div class="thumbnail-img">
+                    <img src="img/thum8.jpg"  alt="video thumbnail">
+                </div>
+                
+                <div class="thumb-description">
+                    <h3 class="thumb-title">Contributing to open source</h3>
+                    <p class="thumb-info" >The Odin Project</p>
+                    <p class="thumb-info3" >50,000 views</p>
+                </div>
+            </div>
+            <div class="sidebar-vid">
+                <div class="thumbnail-img">
+                    <img src="img/thumb10.jpeg"  alt="video thumbnail">
+                </div>
+                
+                <div class="thumb-description">
+                    <h3 class="thumb-title">Contributing to open source</h3>
+                    <p class="thumb-info" >The Odin Project</p>
+                    <p class="thumb-info" >50,000 views</p>
+                </div>
+            </div>
+            <div class="sidebar-vid">
+                <div class="thumbnail-img">
+                    <img src="img/thumb11.jpg"  alt="video thumbnail">
+                </div>
+                
+                <div class="thumb-description">
+                    <h3 class="thumb-title">Contributing to open source</h3>
+                    <p class="thumb-info" >The Odin Project</p>
+                    <p class="thumb-info" >50,000 views</p>
+                </div>
+                
+            </div>
+            <hr class="horiz-line">
+            <p class="center-content video-description-more">SHOW MORE</p>
+            <hr class="horiz-line">
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <hr class="horiz-line">
+
+            <div class="footer-upper">
+                <a href="#"><img src="img/youtube-logo.png" height="30" alt="youtube-logo"></a>
+                <button class="footer-upper-elem flex-center">
+                    <img src="img/language.png" alt="language-icon" width="30">
+                    Language: <b>English</b>
+                    <img src="img/bottom-arrow.png" alt="arrow-icon" class="arrow-icon">
+                </button>
+                <button class="footer-upper-elem flex-center">
+                    Location: <b>Netherlands</b>
+                    <img src="img/bottom-arrow.png" alt="arrow-icon" class="arrow-icon">
+                </button>
+                <button class="footer-upper-elem flex-center">
+                    Restricted Mode: <b>Off</b>
+                    <img src="img/bottom-arrow.png" alt="arrow-icon" class="arrow-icon">
+                </button>
+                <button class="footer-upper-elem flex-center">
+                    <img src="img/history.png" alt="history-icon" width="20">
+                    History 
+                </button>
+                <button class="footer-upper-elem flex-center">
+                    <img src="img/help-icon.png" alt="Help" width="30">
+                    Help
+                </button>
+            </div>
+            <hr class="horiz-line">
+            <div class="footer-lower">
+                <ul class="footer-list main">
+                    <li>About</li>
+                    <li>Press</li>
+                    <li>Copyright</li>
+                    <li>Creators</li>
+                    <li>Advertise</li>
+                    <li>Developer</li>
+                </ul>
+                <ul class="footer-list">
+                    <li>Terms</li>
+                    <li>Privacy</li>
+                    <li>Policy & Safety</li>
+                    <li>Test new features</li>
+  
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
